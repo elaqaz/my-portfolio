@@ -1,13 +1,26 @@
-import React from 'react';
 import './App.css';
+function Header() {
+  return (
+    <header>
+      <nav className="nav">
+        <ul className="nav-item">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <title className="App-title">
         <h1>Hello! 👋 I'm Elzbieta, call Ella.</h1>
         <p>Web Developer & Prodct Owner</p>
-      </header>
+      </title>
       <main>
         <section className="intro">
         <p>With a passion for web development and a global perspective, I'm ready to embark on my journey in the world of coding. Having lived and studied in diverse countries like Malta and Georgia, I bring a unique blend of creativity and technical expertise to every project.</p>
@@ -45,41 +58,3 @@ function App() {
 }
 
 export default App;
-
-// import React from 'react';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header>
-//         <h1>Your Name</h1>
-//         <p>Web Developer</p>
-//       </header>
-//       <body>
-//       <section className="about">
-//         <h2>About Me</h2>
-//         <p>
-//           This is where you can introduce yourself and provide some information
-//           about your background, skills, and interests.
-//         </p>
-//       </section>
-
-//       <section className="portfolio">
-//         <h2>Portfolio</h2>
-//         {/* Add your portfolio projects here */}
-//       </section>
-
-//       <section className="contact">
-//         <h2>Contact Me</h2>
-//         <p>
-//           You can reach me at your.email@example.com or connect with me on
-//           LinkedIn, GitHub , or other social media platforms.
-//         </p>
-//       </section>
-//      </body>
-//     </div>
-//   );
-// }
-// export default App;
-
