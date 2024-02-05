@@ -1,4 +1,6 @@
+import { createRoot } from 'react-dom/client';
 import './App.css';
+
 function Header() {
   return (
     <header>
@@ -14,13 +16,14 @@ function Header() {
   );
 }
 
-function App() {
+function MainContent() {
   return (
     <div className="App">
-      <title className="App-title">
-        <h1>Hello! 👋 I'm Elzbieta, call Ella.</h1>
-        <p>Web Developer & Prodct Owner</p>
-      </title>
+      <div className="parent">
+        <div className="header-title">
+          <h1>Hello! 👋 I'm Elzbieta, call Ella.</h1>
+          <p>Web Developer & Product Owner</p>
+        </div>
       <main>
         <section className="intro">
         <p>With a passion for web development and a global perspective, I'm ready to embark on my journey in the world of coding. Having lived and studied in diverse countries like Malta and Georgia, I bring a unique blend of creativity and technical expertise to every project.</p>
@@ -54,7 +57,33 @@ function App() {
         </section>
       </main>
     </div>
+  </div>
+
   );
 }
 
+function Footer() {
+  return (
+      <footer>
+          <small>© 2024 Ella development.</small>
+      </footer>
+  )
+}
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+// Create a root.
+const root = createRoot(document.getElementById('root'));
+// Initial render: Render the Page component to the DOM.
+root.render(<App />);
+
 export default App;
+
