@@ -1,3 +1,7 @@
+import React from 'react';
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {GrMail} from "react-icons/gr";
+
 export default function MainContent() {
     return (
       <div className="App">
@@ -32,10 +36,12 @@ export default function MainContent() {
             <h2>Get in Touch</h2>
             <p>
               Let's connect and create something remarkable. Reach out on 
-              <a href="https://www.linkedin.com/in/elzbieta-szymichowska-31309b289/">LinkedIn</a> or 
-              <a href="https://github.com/elaqaz">GitHub</a>.
+              <div className='footerLinks'>
+        <a href="https://github.com/elaqaz" target='_blank'><FaGithub/></a> 
+        <a href="https://www.linkedin.com/in/elzbieta-szymichowska-31309b289/" target='_blank'><FaLinkedin/></a>
+        <a href='mailTo:ela.buu@gmail.com' target='_blank'><GrMail/></a>
+      </div>
             </p>
-            {/* Consider adding a contact form here */}
           </section>
         </main>
       </div>
