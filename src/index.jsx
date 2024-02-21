@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client';
 import './App.css';
 import React from 'react';
 import Header from './Header';
-import MainContent from './MainContent';
+import MainContent from './components/ MainContent/MainContent';
 import Footer from './Footer';
 
 

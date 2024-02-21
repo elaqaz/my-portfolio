@@ -1,7 +1,10 @@
 import React from 'react';
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
-import LogoMe from './assets/logo-me.jpg';
+import LogoMe from './assets/logo-me.jpg'; 
+import largeBackground from './assets/large-backgruond.jpg';
+import styles from './MainContent.module.css'; 
+
 
 
 export default function MainContent() {
@@ -10,7 +13,12 @@ export default function MainContent() {
         <div className="parent">
           <div className="header-title">
             <h1>Hello! 👋 I'm Elzbieta, call Ella.</h1>
-            <p>Web Developer & Product Owner</p>
+            <img 
+            src={LogoMe} 
+            alt="My logo" 
+            // style={{ maxWidth: '400px', width: '300px' }}
+            />
+             <p>Web Developer & Product Owner</p>
           </div>
         <main>
           <section className="intro">
