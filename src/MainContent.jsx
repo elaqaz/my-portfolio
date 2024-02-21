@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
-import './App.css';
+import LogoMe from './assets/logo-me.jpg';
 
 
 export default function MainContent() {
