@@ -15,7 +15,7 @@
 const Footer = () => {
   return (
     <footer>
-      <h4>Developed by Ella, copyright © 2024</h4>
+      <h4>I love code </h4>
       
     </footer>
   )

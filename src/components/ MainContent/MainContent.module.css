@@ -1,18 +1,32 @@
+/* MainContent.module.css */
 
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d9');
+  background-size: cover;
+}
 
 .header {
-    display: flex;
-    align-items: center; 
-    padding: 20px 50px;}
-  
-.logo {
-    max-width: 400px;
-    width: 300px;
-    margin-left: 20px;
-  }
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
 
-  
 .title {
-    font-size: 24px;
-    margin-left: 20px; 
-  }
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.mainContent {
+  padding: 20px;
+  background: rgba(255, 255,
+  255, 0.8);}
