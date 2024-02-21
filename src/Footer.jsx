@@ -8,9 +8,9 @@
 //   }
 //   //   export default Header;
 
-import React from 'react';
-import {FaGithub, FaLinkedin} from "react-icons/fa";
-import {GrMail} from "react-icons/gr";
+// import React from 'react';
+// import {FaGithub, FaLinkedin} from "react-icons/fa";
+// import {GrMail} from "react-icons/gr";
 
 const Footer = () => {
   return (
