@@ -1,11 +1,13 @@
 import logoMe from  '../../assets/logoMe.jpg';
+import styles from './Header.module.css';
 
 export default function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src={logoMe} alt="logo" className="logo"/>
-
+    
+        <img src={logoMe} alt="logo" className={styles.logo} />
+    
         <h1>Elzbieta Szymichowska</h1>
         <ul className="nav-item">
           <li><a href="#intro">Intro</a></li>

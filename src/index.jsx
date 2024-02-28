@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client';
 import './App.css';
 import React from 'react';
-import Header from './Header';
-import MainContent from './components/ MainContent/MainContent';
+import Header from './components/Header/Header';
+import MainContent from './components/MainContent/MainContent';
 import Footer from './Footer';
 
 
