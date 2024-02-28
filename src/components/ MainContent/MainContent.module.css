@@ -10,6 +10,13 @@
   background-size: cover;
 }
 
+.logo {
+  max-width: 150px; /* Control the size of the logo */
+  height: auto; /* Maintain the aspect ratio of the logo */
+  display: block; /* Place the logo on a new line */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
 .header {
   text-align: center;
   padding: 20px;
