@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import LogoMe from '../../assets/logo-me.jpg';
+import LogoMe from '../../assets/logoMe.jpg';
 import styles from './MainContent.module.css';
 
 export default function MainContent() {
@@ -14,7 +14,7 @@ export default function MainContent() {
       </header>
 
       <div className={styles.logo}>
-        <img src={LogoMe} alt="Elzbieta Szymichowska" className={styles.heroImage}/>
+        <img src={LogoMe} alt="logo" className={styles.logo}/>
       </div>
       
       <div className={styles.mainContent}>
