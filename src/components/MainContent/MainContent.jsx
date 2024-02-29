@@ -2,6 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import LogoMe from '../../assets/logoMe.jpg';
+import SquareShip from '../../assets/squareShip.jpeg';
+import RectangleShip from '../../assets/rectangleShip.jpeg';
 import styles from './MainContent.module.css';
 
 export default function MainContent() {
@@ -14,7 +16,8 @@ export default function MainContent() {
       </header>
 
       <div className={styles.logo}>
-        <img src={LogoMe} alt="logo" className={styles.logo}/>
+        {/* <img src={LogoMe} alt="logo" className={styles.logo}/> */}
+        < img src={SquareShip} alt="squareShip" className={styles.squareShip}/>
       </div>
       
       <div className={styles.mainContent}>
