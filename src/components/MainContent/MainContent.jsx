@@ -17,7 +17,7 @@ export default function MainContent() {
 
       <div className={styles.logo}>
         {/* <img src={LogoMe} alt="logo" className={styles.logo}/> */}
-        < img src={SquareShip} alt="squareShip" className={styles.squareShip}/>
+        {/* < img src={SquareShip} alt="squareShip" className={styles.squareShip}/> */}
       </div>
       
       <div className={styles.mainContent}>

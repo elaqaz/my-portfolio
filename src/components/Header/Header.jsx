@@ -8,7 +8,7 @@ export default function Header() {
     
         <img src={logoMe} alt="logo" className={styles.logo} />
     
-        <h1>Elzbieta Szymichowska</h1>
+        {/* <h1>Elzbieta Szymichowska</h1> */}
         <ul className="nav-item">
           <li><a href="#intro">Intro</a></li>
           <li><a href="#skills">Skills</a></li>
