@@ -22,7 +22,7 @@ export default function MainContent() {
       
       <div className={styles.mainContent}>
         <section className={styles.intro}>
-        <h2 className={styles.subtitle}>Web Developer & Product Owner</h2>
+        <h2 className={styles.subtitle}>Product Owner & Web Developer</h2>
           <p className={styles.description}>With a passion for web development and a global perspective, I'm ready to embark on my journey in the world of coding. Having lived and studied in diverse countries like Malta and Georgia, I bring a unique blend of creativity and technical expertise to every project.</p>
         </section>
 
