@@ -23,7 +23,7 @@ export default function MainContent() {
       <div className={styles.mainContent}>
         <section className={styles.intro}>
         <h2 className={styles.subtitle}>Product Owner & Web Developer</h2>
-          <p className={styles.description}>With a passion for web development and a global perspective, I'm ready to embark on my journey in the world of coding. Having lived and studied in diverse countries like Malta and Georgia, I bring a unique blend of creativity and technical expertise to every project.</p>
+        <p className={`${styles.description} ${styles.textOutline}`}>From Malta to Georgia and now the UK, my journey has been marked by a rich tapestry of global experiences, enhancing my work in product development with a distinctive Agile approach. Living in various places within the UK has broadened my perspective further, enriching my approach to product development. My main expertise revolves around orchestrating product cycles and embracing Agile methodologies. Additionally, my foray into web development offers technical depth that complements my primary focus. Coding, an extra skill in my repertoire, enables me to effectively translate visionary concepts into practical applications, enriching the product development process without the need for a leadership title.</p>
         </section>
 
         {/* <section className={styles.skills}>

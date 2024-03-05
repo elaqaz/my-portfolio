@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 .app {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -36,3 +38,33 @@
   padding: 20px;
   background: rgba(255, 255,
   255, 0.8);}
+
+.mainContent h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  }
+
+.description {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #2c3e50; /* A deep blue color */
+  line-height: 1.75;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 50ch; /* Width based on the character width */
+  letter-spacing: 0.5px;
+  }
+  
+.text-outline {
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+  
+@media (max-width: 768px) {
+  .description {
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 25px;
+    max-width: 100%;
+   }
+  }
