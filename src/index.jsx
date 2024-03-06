@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header/Header';
 import MainContent from './components/MainContent/MainContent';
-import Footer from './Footer';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -22,4 +22,5 @@ const root = createRoot(document.getElementById('root'));
 root.render(<App />);
 
 export default App;
+
 
